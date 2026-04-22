@@ -78,8 +78,8 @@
     .newsColumn {
         grid-column: 9 / 13;
         grid-row: 1 / 13;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
         gap: 1rem;
     }
 
